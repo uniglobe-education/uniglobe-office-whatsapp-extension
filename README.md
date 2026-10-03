@@ -22,6 +22,7 @@ Only the office number assigned to your CRM account can pair. If the CRM says **
 - Keep Chrome and one WhatsApp Web tab open during your shift. The CRM can be in another tab. Closing Chrome or letting the PC sleep pauses live sync; it catches up with messages WhatsApp Web still has when you return.
 - New direct messages to your office number can create a CRM contact owned by you. Open **My Conversations** or **My Students** to work with them.
 - To reply from the CRM, open the conversation and choose your **office WhatsApp** number under **Send from**. You may also reply in WhatsApp Web; eligible direct messages sync to the same CRM conversation.
+- With the updated CRM, choose your office number and press **Call** to start an office voice call. The CRM shows call progress and **End call**; keep WhatsApp Web open for audio and allow its microphone prompt. Calls are not recorded.
 - The UniGlobe panel at the right of WhatsApp Web shows the linked student and quick CRM actions. It can be collapsed with the **UniGlobe** tab.
 - If a direct contact is a teammate, job seeker, or other non-student, use the conversation's **Mark as non-lead** control. That removes an office-only contact from student lists and counts while retaining its chat for audit. Do not classify an actual student this way.
 - At the end of your shift, **log out of the CRM**. This signs the extension out of that CRM account. Closing only the CRM tab does not sign it out.
@@ -44,3 +45,14 @@ For a persistent problem, open the extension popup and click **Export diagnostic
 Only eligible one-to-one office chats sync. Groups, status updates, broadcasts, channels, calls, and view-once media are not captured. Do not use this extension with a personal WhatsApp number. Read the [CRM privacy policy](https://crm.uniglobeeducation.co.uk/privacy-policy) before connecting.
 
 This is an internal UniGlobe tool, not an official WhatsApp or Meta product. It depends on WhatsApp Web being available and may need an update if WhatsApp Web changes.
+
+
+## Version 1.0.6 — 3 October 2026
+
+Adds office call controls for the updated CRM, with the call and End control
+bound to the original WhatsApp tab. A timeout never automatically redials.
+Repairs chat opening for the current WhatsApp Web build, including phone-number
+to LID chat migration. The live adapter was tested with a designated contact:
+the call connected and End ended it after 16 seconds. Full CRM calling requires
+the corresponding CRM release. Update the unpacked extension using the steps
+above; it does not auto-update.
