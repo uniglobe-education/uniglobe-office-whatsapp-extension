@@ -47,6 +47,14 @@ Only eligible one-to-one office chats sync. Groups, status updates, broadcasts, 
 This is an internal UniGlobe tool, not an official WhatsApp or Meta product. It depends on WhatsApp Web being available and may need an update if WhatsApp Web changes.
 
 
+## Version 1.0.11 — 4 October 2026
+
+Keeps WhatsApp Web connected when you are not looking at it. The extension
+stops Chrome from putting the WhatsApp tab to sleep, and if the browser puts it
+to sleep anyway (Edge "Sleeping tabs"), it wakes it up so it reconnects by
+itself. Includes everything in 1.0.10. Works with CRM 0.1.33. Update the
+unpacked extension using the steps above.
+
 ## Version 1.0.10 — 3 October 2026
 
 Incoming calls on your office WhatsApp now ring in the CRM, with Answer and
