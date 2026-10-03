@@ -47,6 +47,18 @@ Only eligible one-to-one office chats sync. Groups, status updates, broadcasts, 
 This is an internal UniGlobe tool, not an official WhatsApp or Meta product. It depends on WhatsApp Web being available and may need an update if WhatsApp Web changes.
 
 
+## Version 1.0.9 — 3 October 2026
+
+Much faster sync. The extension now keeps its own local database of synced
+messages, imports older chats three at a time without re-sending what it
+already sent, and uploads files on their own track (three at a time). All
+older text is imported; files from the last 6 months (older files show as
+"not imported" in the CRM). Messages are no longer lost while Chrome wakes the
+extension. Needs one new permission, "unlimited storage" (no warning). Includes
+everything in 1.0.8. Works with CRM 0.1.29. Update the unpacked extension
+using the steps above; once the Chrome Web Store version is approved, the CRM
+offers a one-click switch to a version that updates itself.
+
 ## Version 1.0.8 — 3 October 2026
 
 Fixes the office WhatsApp showing "offline" on and off while it was working.
