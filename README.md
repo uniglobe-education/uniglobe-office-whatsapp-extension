@@ -47,6 +47,14 @@ Only eligible one-to-one office chats sync. Groups, status updates, broadcasts, 
 This is an internal UniGlobe tool, not an official WhatsApp or Meta product. It depends on WhatsApp Web being available and may need an update if WhatsApp Web changes.
 
 
+## Version 1.0.10 — 3 October 2026
+
+Incoming calls on your office WhatsApp now ring in the CRM, with Answer and
+Decline (the conversation itself stays in WhatsApp Web — keep that tab open and
+allow the microphone). Missed calls are recorded on the student. Calls from the
+CRM go out from your office number. Includes everything in 1.0.9. Works with
+CRM 0.1.31. Update the unpacked extension using the steps above.
+
 ## Version 1.0.9 — 3 October 2026
 
 Much faster sync. The extension now keeps its own local database of synced
