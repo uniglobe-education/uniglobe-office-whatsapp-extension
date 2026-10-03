@@ -47,6 +47,15 @@ Only eligible one-to-one office chats sync. Groups, status updates, broadcasts, 
 This is an internal UniGlobe tool, not an official WhatsApp or Meta product. It depends on WhatsApp Web being available and may need an update if WhatsApp Web changes.
 
 
+## Version 1.0.7 — 3 October 2026
+
+Everything in 1.0.6 (office call controls) plus a **Not a student?** card in the
+sidebar: mark a chat as Teammate, Partner or Other and it is hidden from the CRM
+and never counted as a student. When the same number chats with other staff
+office numbers, the card says so, and shows a one-click "Yes" when a colleague
+already marked it. Works with CRM 0.1.26. Update the unpacked extension using
+the steps above; it does not auto-update.
+
 ## Version 1.0.6 — 3 October 2026
 
 Adds office call controls for the updated CRM, with the call and End control
