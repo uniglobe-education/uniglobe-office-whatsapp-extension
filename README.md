@@ -47,6 +47,15 @@ Only eligible one-to-one office chats sync. Groups, status updates, broadcasts, 
 This is an internal UniGlobe tool, not an official WhatsApp or Meta product. It depends on WhatsApp Web being available and may need an update if WhatsApp Web changes.
 
 
+## Version 1.0.8 — 3 October 2026
+
+Fixes the office WhatsApp showing "offline" on and off while it was working.
+After Chrome restarts the extension in the background, it now waits for the
+WhatsApp tab before reporting, and a WhatsApp tab that was open before an
+update is reloaded once so it reconnects by itself. Includes everything in
+1.0.7 (calls, Not a student). Works with CRM 0.1.27. Update the unpacked
+extension using the steps above; it does not auto-update.
+
 ## Version 1.0.7 — 3 October 2026
 
 Everything in 1.0.6 (office call controls) plus a **Not a student?** card in the
