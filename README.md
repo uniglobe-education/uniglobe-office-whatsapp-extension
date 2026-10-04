@@ -47,6 +47,13 @@ Only eligible one-to-one office chats sync. Groups, status updates, broadcasts, 
 This is an internal UniGlobe tool, not an official WhatsApp or Meta product. It depends on WhatsApp Web being available and may need an update if WhatsApp Web changes.
 
 
+## Version 1.0.12 — 4 October 2026
+
+Every call on your office WhatsApp now appears in the student's chat in the
+CRM — incoming, outgoing and missed, whether you called from the CRM or from
+your phone — with how long it lasted. Includes everything in 1.0.11. Works with
+CRM 0.1.34. Update the unpacked extension using the steps above.
+
 ## Version 1.0.11 — 4 October 2026
 
 Keeps WhatsApp Web connected when you are not looking at it. The extension
