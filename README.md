@@ -47,6 +47,15 @@ Only eligible one-to-one office chats sync. Groups, status updates, broadcasts, 
 This is an internal UniGlobe tool, not an official WhatsApp or Meta product. It depends on WhatsApp Web being available and may need an update if WhatsApp Web changes.
 
 
+## Version 1.0.13 — 6 October 2026
+
+Files from your office WhatsApp reach the CRM reliably. Photos, PDFs and voice
+notes copy in bigger pieces, files WhatsApp Web had not loaded yet are fetched
+again automatically, and a file that still can't be copied shows "failed" with
+a **Retry** button in the CRM instead of "syncing" forever. Includes everything
+in 1.0.12. Works with CRM 0.1.36. Update the unpacked extension using the steps
+above.
+
 ## Version 1.0.12 — 4 October 2026
 
 Every call on your office WhatsApp now appears in the student's chat in the
