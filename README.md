@@ -47,6 +47,14 @@ Only eligible one-to-one office chats sync. Groups, status updates, broadcasts, 
 This is an internal UniGlobe tool, not an official WhatsApp or Meta product. It depends on WhatsApp Web being available and may need an update if WhatsApp Web changes.
 
 
+## Version 1.0.14 — 6 October 2026
+
+Much faster sync. New messages reach the CRM first, the last week of every
+chat follows within minutes, and older chats import one by one in the
+background without slowing anything down. Photos, PDFs and voice notes start
+copying the moment they arrive. Works with CRM 0.1.40. If you installed from
+the Chrome Web Store, Chrome updates it for you.
+
 ## Version 1.0.13 — 6 October 2026
 
 Files from your office WhatsApp reach the CRM reliably. Photos, PDFs and voice
