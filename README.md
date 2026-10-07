@@ -47,6 +47,10 @@ Only eligible one-to-one office chats sync. Groups, status updates, broadcasts, 
 This is an internal UniGlobe tool, not an official WhatsApp or Meta product. It depends on WhatsApp Web being available and may need an update if WhatsApp Web changes.
 
 
+## Version 1.0.16 — 7 October 2026
+
+Repairs history loading and document, photo, and voice-note downloads for the current WhatsApp Web client. File recovery uses the same history loader as chat sync. Download failures remain queued until the CRM acknowledges them, and empty downloads are rejected. Update the unpacked extension using the Reload steps above, then refresh WhatsApp Web.
+
 ## Version 1.0.14 — 6 October 2026
 
 Much faster sync. New messages reach the CRM first, the last week of every
